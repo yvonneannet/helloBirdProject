@@ -19,6 +19,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
     setContentView(binding.root)
 
 
+    binding.btnback1.setOnClickListener{
+        finish()
+    }
+
+
     binding.btnNext2.setOnClickListener{
         val intent = Intent(this, BirdThree::class.java)
         startActivity(intent)

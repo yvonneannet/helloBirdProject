@@ -15,7 +15,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/cutebird3" />
+        />
 
     <TextView
         android:id="@+id/textView"

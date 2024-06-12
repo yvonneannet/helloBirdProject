@@ -17,6 +17,10 @@ class BirdThree : AppCompatActivity() {
         setContentView(binding.root)
 
 
+        binding.btnback2.setOnClickListener{
+            finish()
+        }
+
         binding.btnnext3.setOnClickListener{
             val intent = Intent(this, birdFour::class.java)
             startActivity(intent)
